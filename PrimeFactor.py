@@ -7,3 +7,4 @@ while n < 102:
     if temp == True:
         print(n)
     n+=1
+    
