@@ -1,11 +1,9 @@
-from operator import truediv
-from pickle import FALSE
-
+from math import sqrt
 
 i = 1
 lpf = 0
 n = 600851475143
-while i < n:
+while i <= sqrt(n):
     if 0 == n%i:
         temp = True
         for j in range(2,i):
